@@ -5,7 +5,7 @@
     flex-direction: row;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 10px;   
 }
 
 .logo_negosud {
@@ -29,19 +29,21 @@
 
 .item_compte {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;    
     cursor: pointer;
 }
 
 /* Menu */
 
 .lien {
-    color: #7A0000;
+    color: grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1.1rem; 
 }
 
 .lien:hover {
-    color: red;
+    color: #7A0000;
 }
 
 
@@ -71,16 +73,23 @@ h1 {
     font-size: 1.4rem;
     margin-top: 80px;
     color: #7A0000;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2 {
     font-size: 1.1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
     font-size: 1.1rem;
     margin-left: 18px;
-    color: white;
+    color: lightgrey;
+    margin-top: 10px;
+}
+
+.span {
+    color: lightgrey;
 }
 
 /* Footer */
@@ -90,12 +99,20 @@ h3 {
     flex-direction: row;
     justify-content: space-around;
     background-color: #7A0000;
-    height: 210px;  
+    height: 220px;  
+    margin-top: 25px!important;;
 }
 
 .footer li {
-    color: white;
+    color: lightgray;
     cursor: pointer;
+    list-style: none;
+    margin-bottom: 15px;
+    margin-left: -12px;
+}
+
+.footer li:hover {
+    color: white;
 }
 
 .logo_footer {
@@ -111,4 +128,16 @@ h3 {
 
 #div_mon_compte {
     display: none;
+}
+
+.adresse {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 12px;
+}
+
+.image_footer {
+    margin-left: 12px;
 }
