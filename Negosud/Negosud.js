@@ -1,5 +1,6 @@
 window.onload = function() {
     document.getElementById("logo_mon_compte").addEventListener("click", menu_deroulant_onclick);
+    
 };
 
 function menu_deroulant_onclick() {
@@ -12,3 +13,4 @@ function menu_deroulant_onclick() {
         document.getElementById("div_mon_compte").style.display = "none";
     }
 }
+

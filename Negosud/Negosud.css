@@ -5,7 +5,7 @@
     flex-direction: row;
     align-items: center;
     flex-direction: row;
-    gap: 10px;   
+    gap: 10px;  
 }
 
 .logo_negosud {
@@ -141,3 +141,12 @@ h3 {
 .image_footer {
     margin-left: 12px;
 }
+
+/* Conditions générales de vente */
+
+.titre_conditions {
+    color: #7A0000; 
+}
+
+
+/* Mentions légales */

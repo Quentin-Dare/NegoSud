@@ -7,7 +7,7 @@
 	<meta charset="utf-8">
 	<title>Negosud</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-	<link  rel= "stylesheet" href="css/Negosud.css" type="text/css" media="all" />
+	<link  rel= "stylesheet" href="Negosud/Negosud.css" type="text/css" media="all" />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
@@ -21,72 +21,9 @@
 
   <!--En tête-->
 
-  <header>
-    <div class="row mt-5 mb-5 header">
+  <?php require_once 'header.php'?>
 
-      <div class="col-lg-3 logo_negosud">
-        <a href="Negosud.html">
-          <img src="./img/logo_vin_4-removebg-preview.jpg" alt="logo negosud" title="logo negosud" class="img-fluid">
-        </a>
-      </div>
-
-      <div class="col-lg-7 barre_recherche">
-        <form class="form-inline">
-          <input class="form-control mr-lg-4" type="search" placeholder="Votre recherche" aria-label="Search">         
-        </form>
-        <div class="logo_loupe">
-          <a href="#">
-            <img src="./img/logo_loupe.jpg" alt="logo loupe" title="" class="img-fluid">
-          </a>
-        </div>
-      </div>
-
-      <div class="item_compte col-lg-2">
-          <div>
-            <img src="./img/logo_mon_compte.jpg" alt="logo Mon compte" title="" class="img-fluid" id="logo_mon_compte">
-            <div class="menu_deroulant" id="div_mon_compte">
-              <ul>
-                <a href="#"><li>Se connecter</li></a>
-                <li><a href="#">S'inscrire</a></li>
-              </ul>
-            </div>
-          </div> 
-            <div>   
-              <a href="Commandes.html">     
-                <img src="./img/logo_panier.jpg" alt="logo Mon panier" title="" class="img-fluid">
-              </a>
-            </div>              
-      </div>
-    </div>
-  </header>
-
-  <!-- Menu -->
-
-  <nav>
-    <ul class="nav nav-justified">      
-        <li class="nav-item">
-          <a class="nav-link  lien" href="Vins_rouges.html">Vins rouges</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  lien" href="Vins_rosés.html">Vins rosés</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link lien" href="Vins_blancs.html">Vins blancs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  lien" href="Armagniacs.html">Armagniacs</a>
-        </li>
-    </ul>
-  </nav>
-
-  <!-- Banière -->
-
-  <div class="row">
-    <div class="col-lg-12 text-center mt-5">
-      <img src="./img/bannière_vin.jpg" alt="Banière de vins" title="" class="img-fluid">
-    </div>
-  </div>
-
+ 
   <!--Corps de page avec les carrousel-->
 
   <!-- Carrousel vin rouge-->
@@ -384,10 +321,6 @@
           </ul>
         </div>      
 		  </div>
-		
-		</div>   
-      <button type="button" class="btn btn-secondary mb-2 bouton_cookies">Paramètres cookies</button>   
-    <div>
 
     </div>
 	</footer>

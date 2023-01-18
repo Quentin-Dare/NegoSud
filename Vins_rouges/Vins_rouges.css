@@ -142,11 +142,21 @@ h3 {
     margin-left: 12px;
 }
 
-/* Conditions générales de vente */
+/* Corps de texte */
 
-titre_conditions {
-    color: #7A0000; 
+.div_vin_rouge {
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   gap: 50px;
+    margin-top: 50px;
 }
 
+.photo {
+    width: 250px;
+    height: 300px;
+}
 
-/* Mentions légales */
+.texte {
+    text-align: center;
+}
