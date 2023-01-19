@@ -6,13 +6,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>Negosud</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-	<link  rel= "stylesheet" href="Negosud/Negosud.css" type="text/css" media="all" />
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
-	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <script src="Negosud.js"></script>
+	
+  <?php require_once './negosud_utils/accueil/css_js_files.php'?>
+
+  <script src="/path/to/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>	
+
 </head>
 
 <body>
@@ -20,8 +20,7 @@
 <div class="container">
 
   <!--En tête-->
-
-  <?php require_once 'header.php'?>
+  <?php require_once './negosud_utils/accueil/header.php'?>
 
  
   <!--Corps de page avec les carrousel-->
@@ -276,60 +275,7 @@
 
    <!--Footer-->
 
-   <footer>
-		<div class="row footer">
-      <div class="col-lg-3 first_colonne">
-		    <h3>NEGOSUD</h3>
-        <a href="Negosud.html">
-          <img src="img/logo_vin_4-removebg-preview.jpg" alt="logo Negosud" title="" class="img-fluid image_footer" style="width:100px; height:100px;">
-        </a>
-        <div class="adresse">
-          <span>13 rue Claude Nougaro</span>
-          <span>29000</span>
-          <span>Auch</span>
-        </div>
-		  </div>
-
-		  <div class="col-lg-3 nos_vin">
-        <h3>NOS VINS</h3>
-        <div class="text_footer">
-          <ul>
-            <a href="Vins_rouges.html"><li>Vins rouges</li></a>
-            <a href="Vins_rosés.html"><li>Vins rosés</li></a>
-            <a href="Vins_blancs.html"><li>Vins blancs</li></a>
-            <a href="Armagniacs.html"><li>Armagniacs</li></a>
-          </ul>
-        </div>
-		  </div>
-
-      <div class="col-lg-3 a_propos">
-        <h3>A PROPOS</h3>
-        <div class="text_footer">
-          <ul class="text-justify">
-            <a href="Conditions_generales.html"><li>Conditions générales</li></a>
-            <a href="Mentions_legales.html"><li>Mentions légales</li></a>                   
-          </ul>
-        </div>
-		  </div>
-
-      <div class="col-lg-3 mon_compte">
-        <h3>MON COMPTE</h3>
-        <div class="text_footer">
-          <ul>
-            <a href="Connexion.html"><li>Se connecter</li></a>
-            <a href="Commandes.html"><li>Mes commandes</li></a>                   
-          </ul>
-        </div>      
-		  </div>
-
-    </div>
-	</footer>
- 
-  	
-  <script src="/path/to/flickity.pkgd.min.js"></script>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>	
-
+   <?php require_once "./negosud_utils/accueil/footer.php" ?>
 </body>
 
 </html>

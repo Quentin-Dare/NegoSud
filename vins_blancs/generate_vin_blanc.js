@@ -46,6 +46,8 @@ window.onload = function() {
     const obj = JSON.parse(json)
 
     GenerateMain(obj)
+    
+    loadMenuEvent()
 };
 
 function GenerateMain(obj)
@@ -64,7 +66,7 @@ function GenerateMain(obj)
 
         while (indexVin < obj.length)
         {
-            contenu += `<div class="row div_vin_rouge">\n`
+            contenu += `<div class="row container_vin">\n`
             
             let nbVin = 0
 

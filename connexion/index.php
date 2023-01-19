@@ -13,6 +13,9 @@
 	<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
 	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <script src="Negosud.js"></script>
+  <script src="/path/to/flickity.pkgd.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>	
 </head>
 
 <body>
@@ -20,17 +23,9 @@
 
          <!--En tête-->
 
-        <header>
-            <div class="row mt-2 mb-5 header">
-        
-              <div class="col-6 logo_negosud">
-                <a href="Negosud.html">
-                  <img src="./img/logo_vin_4-removebg-preview.jpg" alt="logo negosud" title="logo negosud" class="img-fluid">
-                </a>
-              </div>  
+        <?php 'header_pages.php' ?>
 
-            </div>
-        </header>
+        <!-- Corps de texte -->
 
         <div class="row mx-auto">
             <div class="col-6">
@@ -63,62 +58,13 @@
 
         </div>
 
+        <!--Footer -->
+
+        <?php 'footer_pages.php' ?>
+
         
     </div>
-
-    <!--Footer-->
-
-    <footer>
-		<div class="row footer">
-      <div class="col-lg-3 first_colonne">
-		    <h3>NEGOSUD</h3>
-        <img src="img/logo_vin_4-removebg-preview.jpg" alt="logo Negosud" title="" class="img-fluid image_footer" style="width:100px; height:100px;">
-        <div class="adresse_footer">
-          <span>13 rue Claude Nougaro</span>
-          <span>29000</span>
-          <span>Auch</span>
-        </div>
-		  </div>
-
-		  <div class="col-lg-3 nos_vin">
-        <h3>NOS VINS</h3>
-        <div class="text_footer">
-          <ul>
-            <li><a href="#"></a>Vins rouges</li>
-            <li><a href="#"></a>Vins rosés</li>
-            <li><a href="#"></a>Vins blancs</li>
-            <li><a href="#"></a>Armagniacs</li>
-          </ul>
-        </div>
-		  </div>
-
-      <div class="col-lg-3 a_propos">
-        <h3>A PROPOS</h3>
-        <div class="text_footer">
-          <ul class="text-justify">
-            <li><a href="#"></a>Conditions générales</li>
-            <li><a href="#"></a>Mentions légales</li>
-            <li><a href="#"></a>Evènements</li>            
-          </ul>
-        </div>
-		  </div>
-
-      <div class="col-lg-3 mon_compte">
-        <h3>MON COMPTE</h3>
-        <div class="text_footer">
-          <ul>
-            <li><a href="#"></a>Se connecter</li>
-            <li><a href="#"></a>Mes commandes</li>                    
-          </ul>
-        </div>      
-		  </div>
-      		
-    </div>
-	</footer>
-
-  <script src="/path/to/flickity.pkgd.min.js"></script>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>	
+ 
 </body>
 </html>
 
