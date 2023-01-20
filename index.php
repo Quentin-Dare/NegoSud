@@ -11,8 +11,6 @@
 
   <script src="/path/to/flickity.pkgd.min.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>	
-
 </head>
 
 <body>
@@ -215,7 +213,7 @@
 
    <div class="col-lg-12 portfolio-item portfolio_vin mb-5">
 			
-    <h1 class="title_card">Nos Armangniacs</h1>		  
+    <h1 class="title_card">Nos armagnacs</h1>
     <div class="carrousel mb-2" data-flickity='{ "wrapAround": true }'>
      <div class="carousel-cell">
        <div class="card" style="width: 17rem; height: 25rem;">

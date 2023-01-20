@@ -9,13 +9,32 @@
             <div>
               <img src="../img/logo_mon_compte.jpg" alt="" id="logo_compte">
               <ul id="menu_mon_compte">
-                <li><a href="../connexion/"><div>Se connecter</div></a></li>
-                <li><a href="../inscription/"><div>S'inscrire</div></a></li>
+
+              <?php
+                  if (session_status() != 2)
+                  {
+                      session_start();
+                  }
+                  if( isset( $_SESSION['connected'] ) == false ) {
+                      $_SESSION['connected'] = false;
+                  }
+
+                  if ($_SESSION['connected'] == false)
+                  {
+                      echo '
+                      <li><a href="../connexion/"><div>Se connecter</div></a></li>
+                      <li><a href="../inscription/"><div>S\'inscrire</div></a></li>';
+                  }
+                      
+                  else {
+                      echo '<li><a href="../inscription/"><div>Se déconnecter</div></a></li>';
+                  }
+                  ?>
               </ul>
             </div>
             
             <div>   
-              <a href="../commandes/">     
+              <a href="../panier_commandes">     
                 <img src="../img/logo_panier.jpg" alt="logo Mon panier" title="" class="img-fluid">
               </a>
             </div>              

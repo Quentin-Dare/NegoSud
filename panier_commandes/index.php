@@ -5,17 +5,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Negosud</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-	<link  rel= "stylesheet" href="commandes/commandes.css" type="text/css" media="all" />
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/path/to/flickity.css" media="screen">
-	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <script src="Negosud.js"></script>
-  <script src="/path/to/flickity.pkgd.min.js"></script>
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>	
+	<title>Panier</title>
+
+  <?php require_once '../negosud_utils/pages/css_js_files.php'?>
+  <link rel="stylesheet" href="./commandes.css" type="text/css">  
 
 </head>
 
@@ -25,7 +18,7 @@
 
   <!--En tête-->
 
-  <?php require_once 'header_pages.php' ?>
+  <?php require_once '../negosud_utils/pages/header.php'?>
 
   <!--Corps de texte-->
 
@@ -204,7 +197,7 @@
 
   <!--footer-->
 
-  <?php require_once 'footer_pages.php' ?>
+  <?php require_once '../negosud_utils/pages/footer.php' ?>
   	
  
 </body>

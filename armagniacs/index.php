@@ -5,7 +5,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Negosud</title>
+        <title>Armagniacs</title>
         <?php require_once '../negosud_utils/pages/css_js_files.php'?>
 
         <script src="./generate_armagniac.js"></script>

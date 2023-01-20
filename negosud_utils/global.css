@@ -36,7 +36,6 @@ header {
 }
 
 #menu_mon_compte li {
-    display: block;
     height: 40px;
     width: 100%;
 }
@@ -100,6 +99,22 @@ h3 {
     color: lightgrey;
 }
 
+/* Boutons */
+
+.bouton_validation {
+	background-color: white;
+	border: 1px solid #7A0000;
+	border-color: #7A0000;
+	color:black;
+	padding: 12px 20px 12px 20px;
+}
+
+.bouton_validation:hover {
+	background-color: #7A0000;
+	color: white;
+	transition: all 0.4s;
+}
+
 /* Footer */
 
 .footer {
@@ -146,13 +161,20 @@ h3 {
     margin-left: 12px;
 }
 
-/* Conditions générales de vente */
+/* Conditions générales de vente et mentions légales */
+
+
 
 .titre_conditions {
     color: #7A0000; 
 }
 
-/* Mentions légales */
+.sous_titres_conditions {
+    color: black;
+    font-weight: 700;
+}
+
+
 
 /* Corps de texte */
 
